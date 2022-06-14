@@ -10,9 +10,21 @@
   margin: auto;
 
 }
-.loginSection{
+.loginsecandsignup{
   height: 550px;
   width: 350px;
+}
+.loginSection{
+  height: 400px;
+  width: 350px;
+}
+.signupsection{
+  height: 65px;
+  width: 350px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .displayMobile{
 height: 550px;
@@ -49,4 +61,45 @@ input[type=email], input[type=password]{
 .lines{
   width: 35%;
 }
+.pfont{
+  font-size: 14px;
+  font-weight: 500;
+  color:rgb(163, 162, 162) ;
+}
+.loginwith{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  width : 75%;
+  margin: auto;
 
+}
+.loginwithfb{
+  color: rgb(6,57,112);
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 12px;
+}
+.forgotPass{
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 12px;
+  color: rgb(6,57,112);
+  
+}
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+a:active{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
