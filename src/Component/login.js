@@ -2,6 +2,8 @@ import React from "react";
 //import { FaFacebook } from "react-icons/fa"
 import image1 from "../images/smartphone.png";
 import fbimage from "../images/logofb.ico";
+import appstore from "../images/appstore.png";
+import playstore from "../images/playstore.png";
 
 function InstagramPage() {
     return (
@@ -40,9 +42,16 @@ function InstagramPage() {
                         </form>
                     </div>
                     <div className="signupsection border">
-                        <p className="text-center">Don't have an account?</p>
-                        <a href="">SignUp</a>
+                        <p className="text-center mt-3 donthave">Don't have an account?</p>
+                        <a className="signuplink" href="#">SignUp</a>
 
+                    </div>
+                    <div className="text-center mt-3 getapp">
+                        <p>Get the app.</p>
+                    </div>
+                    <div className="text-center storeimages">
+                        <a href="https://apps.apple.com/us/app/instagram/id389801252"><img src={appstore} height={42} width={150} alt="appstorepic" /></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en&gl=US"><img src={playstore} height={42} width={150} alt="playstore" /></a>
                     </div>
                 </div>
 

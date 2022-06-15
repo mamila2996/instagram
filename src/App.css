@@ -25,6 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 5px;
 }
 .displayMobile{
 height: 550px;
@@ -102,4 +103,20 @@ a:active{
 }
 a:hover{
   text-decoration: none;
+}
+.donthave{
+  font-size: 14px;
+}
+.signuplink{
+  font-size: 14px;
+  font-weight: 500;
+}
+.getapp{
+  font-size: 14px;
+}
+.storeimages{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
