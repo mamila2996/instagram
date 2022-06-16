@@ -1,11 +1,11 @@
 import React from "react";
-//import { FaFacebook } from "react-icons/fa"
+//import { FaFacebook } from "react-icons/fa";
 import image1 from "../images/smartphone.png";
 import fbimage from "../images/logofb.ico";
 import appstore from "../images/appstore.png";
 import playstore from "../images/playstore.png";
-
-function InstagramPage() {
+import { Link } from "react-router-dom";
+function Loginpage() {
     return (
         <div className="backgroundC">
             <div className="coponentDisplay">
@@ -29,7 +29,7 @@ function InstagramPage() {
                             </div>
                             <div class="line-3 mb-4">
                                 <hr className="lines" />
-                                <p className="pfont">OR</p>
+                                <p className="pfont mt-3">OR</p>
                                 <hr className="lines" />
                             </div>
                             <div className="loginwith">
@@ -43,7 +43,7 @@ function InstagramPage() {
                     </div>
                     <div className="signupsection border">
                         <p className="text-center mt-3 donthave">Don't have an account?</p>
-                        <a className="signuplink" href="#">SignUp</a>
+                        <Link className="signuplink" to="/signup">Sign up</Link>
 
                     </div>
                     <div className="text-center mt-3 getapp">
@@ -63,4 +63,4 @@ function InstagramPage() {
     );
 
 }
-export default InstagramPage;
+export default Loginpage;
