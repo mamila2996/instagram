@@ -120,3 +120,15 @@ a:hover{
   align-items: center;
   gap: 10px;
 }
+.signuppage{
+  background-color: #FAFAFA;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-section{
+  height: 600px;
+  width: 350px;
+  background-color: white;
+}
