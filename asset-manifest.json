@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/instagram/static/css/main.cf141abc.css",
-    "main.js": "/instagram/static/js/main.5c972555.js",
+    "main.css": "/instagram/static/css/main.fb54d8b8.css",
+    "main.js": "/instagram/static/js/main.fb6bef0a.js",
     "static/js/787.0fb9b3d3.chunk.js": "/instagram/static/js/787.0fb9b3d3.chunk.js",
     "static/media/smartphone.png": "/instagram/static/media/smartphone.b8654f9ac8af5ee1d7be.png",
     "static/media/appstore.png": "/instagram/static/media/appstore.4b99299af5b51babf319.png",
@@ -9,12 +9,12 @@
     "static/media/logo.svg": "/instagram/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/logofb.ico": "/instagram/static/media/logofb.833844cccbd7ffd285b4.ico",
     "index.html": "/instagram/index.html",
-    "main.cf141abc.css.map": "/instagram/static/css/main.cf141abc.css.map",
-    "main.5c972555.js.map": "/instagram/static/js/main.5c972555.js.map",
+    "main.fb54d8b8.css.map": "/instagram/static/css/main.fb54d8b8.css.map",
+    "main.fb6bef0a.js.map": "/instagram/static/js/main.fb6bef0a.js.map",
     "787.0fb9b3d3.chunk.js.map": "/instagram/static/js/787.0fb9b3d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf141abc.css",
-    "static/js/main.5c972555.js"
+    "static/css/main.fb54d8b8.css",
+    "static/js/main.fb6bef0a.js"
   ]
 }
