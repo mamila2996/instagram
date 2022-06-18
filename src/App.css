@@ -38,7 +38,7 @@ width: 350px;
 .loginSectionBg{
   background-color: white;
 }
-input[type=email], input[type=password]{
+input[type=email], input[type=password], input[type=text]{
   width: 75%;
   padding: 10px;
   border-radius: 1px;
@@ -128,7 +128,17 @@ a:hover{
   align-items: center;
 }
 .form-section{
-  height: 600px;
+  height: 630px;
   width: 350px;
   background-color: white;
+}
+.paragraph{
+  width: 75%;
+  margin: auto;
+  font-size: 12px;
+
+}
+.learnmore{
+font-weight: 500;
+
 }

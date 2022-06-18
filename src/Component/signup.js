@@ -19,6 +19,39 @@ function Signuppage() {
                         <p className="pfont mt-3">OR</p>
                         <hr className="lines" />
                     </div>
+                    <form action="">
+                        <div class="mb-2 mt-3 text-center">
+                            <label for="" class="visually-hidden">Email address</label>
+                            <input type="email" class="" placeholder="Phone number, username, or email" />
+                        </div>
+                        <div class="mb-2 text-center">
+                            <label for="" class="visually-hidden">Email address</label>
+                            <input type="text" class="" placeholder="Full Name" />
+                        </div>
+                        <div class="mb-2  text-center">
+                            <label for="" class="visually-hidden">Email address</label>
+                            <input type="text" class="" placeholder="Username" />
+                        </div>
+                        <div class="mb-2 text-center">
+                            <label for="" class="visually-hidden">Email address</label>
+                            <input type="password" class="" placeholder="Password" />
+                        </div>
+                    </form>
+                    <div className="paragraph">
+                        <p className="text-secondary">
+                            People who use our service may have uploaded your contact information to Instagram.
+                            <a className="text-secondary learnmore" href="#">Learn More</a>
+                        </p>
+                        <p className="text-secondary" >
+                            By signing up, you agree to our<a className="text-secondary learnmore" href="#"> Terms , </a>
+                            <a className="text-secondary learnmore" href="#">Data Policy </a>
+                            and
+                            <a className="text-secondary learnmore" href="#"> Cookies Policy .</a>
+                        </p>
+                    </div>
+                    <div class="mb-4 d-grid tex-center loginDiv">
+                        <button type="submit" class="btn btn-primary btn-sm fw-bold text-light disabled">Sign up</button>
+                    </div>
 
 
                 </div>
