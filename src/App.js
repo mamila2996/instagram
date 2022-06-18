@@ -11,8 +11,9 @@ function App() {
     <div className='App'>
       <Router>
         <Routes>
-          <Route path='/' element={<Loginpage />} />
+          <Route path='/instagram' element={<Loginpage />} />
           <Route path='/signup' element={<Signuppage />} />
+          <Route path='/errorpage' element={<ErrorPage />} />
         </Routes>
       </Router>
       
